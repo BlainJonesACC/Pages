@@ -1,7 +1,7 @@
 # MindTap how_to's
 ## Copy Share link to your code on MindTap
 
-below are the steps to get a copy of the link to your code. This link can shared with others to review your code.
+Below are the steps to get a copy of the link to your code. This link can shared with others to review your code.
 
 You can email me the share URL of your code with the Share feature and I'll look over your code. See images below for steps to copy URL.
 
