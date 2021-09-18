@@ -4,7 +4,7 @@ You can use the [editor on GitHub](https://github.com/BlainJonesACC/Sites/edit/m
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-[MindTap Share Link instruction](https://blainjonesacc.github.io/Sites/MindTap_Share_URL/)
+[MindTap Share Link instruction](MindTap_Share_URL/)
 
 ### Markdown
 
