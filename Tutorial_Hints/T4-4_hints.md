@@ -12,7 +12,7 @@ The text-shadow CSS property adds shadows to text. It accepts a comma-separated 
 ### [box-shadow - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
 
 > box-shadow
-The box-shadow CSS property adds shadow effects around an element's frame. You can set multiple effects separated by commas. A box shadow is described by X and Y offsets relative to the element, blur and spread radius, and color. 
+The box-shadow CSS property adds shadow effects around an element's frame. You can set multiple effects separated by commas. A box shadow is described by X and Y offsets relative to the element, blur and spread radius, and color.
 
 ```css
 /* offset-x | offset-y | blur-radius | spread-radius | color */
