@@ -58,4 +58,4 @@ The circle() CSS function is one of the \<basic-shape> data types.
 
 The url() CSS function is used to include a file. The parameter is an absolute URL, a relative URL, or a data URI. The url() function can be passed as a parameter of another CSS functions, like the attr() function. Depending on the property for which it is a value, the resource sought can be an image, font, or a stylesheet. The url() functional notation is the value for the \<url> data type.
 
-#### [Link to slideshow](../export/index.html)
+#### [Link to slideshow](../Tutorial_Hints/export/export/index.html)
