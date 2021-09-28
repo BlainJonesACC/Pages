@@ -2,6 +2,8 @@
 
 ## Links to helpful sites
 
+---
+
 ### [text-shadow - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow)
 
 The text-shadow CSS property adds shadows to text. It accepts a comma-separated list of shadows to be applied to the text and any of its decorations. Each shadow is described by some combination of X and Y offsets from the element, blur radius, and color.
@@ -35,7 +37,8 @@ border-image: linear-gradient(red, blue) 27;
 The background shorthand CSS property sets all background style properties at once, such as color, image, origin and size, or repeat method.
 
 ---
-[radial-gradient() - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient())
+
+### [radial-gradient() - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient())
 
 The radial-gradient() CSS function creates an image consisting of a progressive transition between two or more colors that radiate from an origin. Its shape may be a circle or an ellipse. The function's result is an object of the \<gradient> data type, which is a special kind of \<image>.
 
