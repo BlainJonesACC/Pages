@@ -9,14 +9,14 @@ You can email me the share URL of your code with the Share feature and I'll look
 ### Step1: Click on Share icon
 
 <!-- ![Share icon](MindTap_share-1.png) -->
-<img src="MindTap_share-1.png" width="300px" />
+<img src="MindTap_share-1.png" width="400px" />
 
 ### Step 2: Then click on Get Share URL
 
 <!-- ![Get Share URL](MindTap_share-2.png) -->
-<img src="MindTap_share-2.png" width="300px" />
+<img src="MindTap_share-2.png" width="400px" />
 
 ### Step 3: Then click on the copy icon
 
 <!-- ![Copy URL](MindTap_share-3.png) -->
-<img src="MindTap_share-3.png" width="300px" />
+<img src="MindTap_share-3.png" width="400px" />
