@@ -4,8 +4,8 @@
 
 ### MindTap Tips
 
-- [MindTap Share Link instruction](MindTap_Share_URL/)
+- [MindTap Share Link instruction](./MindTap_Share_URL/Readme.md)
 
 ### Tutorial Hints
 
-- [Tutorial 4 Coding Challenge 4](Tutorial_Hints/)
+- [Tutorial 4 Coding Challenge 4](./Tutorial_Hints/T4-4_hints.md)
