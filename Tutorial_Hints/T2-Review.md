@@ -1,6 +1,6 @@
-# Tutorial 2
+# Tutorial 2 Review Assignment
 
-## Review Assignment
+## Links to helpful sites
 
 ---
 
