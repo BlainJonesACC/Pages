@@ -61,12 +61,6 @@ background-color: hsla(50, 33%, 25%, 0.75);  /* 75% opaque, i.e. 25% transparent
 /* Special keyword values */
 background-color: currentcolor;
 background-color: transparent;
-
-/* Global values */
-background-color: inherit;
-background-color: initial;
-background-color: revert;
-background-color: unset;
 ```
 
 ---
@@ -109,12 +103,6 @@ color: hsl(30 100% 50% / 0.6);
 color: hsla(30 100% 50% / 0.6);
 color: hsl(30.0 100% 50% / 60%);
 color: hsla(30.2 100% 50% / 60%);
-
-/* Global values */
-color: inherit;
-color: initial;
-color: revert;
-color: unset;
 ```
 
 ---
@@ -238,7 +226,7 @@ letter-spacing: normal;
 /* <length> values */
 letter-spacing: 0.3em;
 letter-spacing: 3px;
-letter-spacing: .3px;
+letter-spacing: 0.3px;
 ```
 
 ---
