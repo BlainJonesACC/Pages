@@ -275,7 +275,7 @@
     
         <section >
             
-            <h1><a id="user-content-tutorial-4-coding-challenge-4" class="anchor" href="#tutorial-4-coding-challenge-4" aria-hidden="true"></a>Tutorial 4: Coding Challenge 4</h1>
+            <h1><a id="user-content-tutorial-2-review-assignment" class="anchor" href="#tutorial-2-review-assignment" aria-hidden="true"></a>Tutorial 2 Review Assignment</h1>
 <h2><a id="user-content-links-to-helpful-sites" class="anchor" href="#links-to-helpful-sites" aria-hidden="true"></a>Links to helpful sites</h2>
 
             </section>
@@ -286,21 +286,12 @@
     
         <section >
             
-            <h3><a id="user-content-text-shadow---css-cascading-style-sheets--mdn" class="anchor" href="#text-shadow---css-cascading-style-sheets--mdn" aria-hidden="true"></a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow">text-shadow - CSS: Cascading Style Sheets | MDN</a></h3>
-<p>The text-shadow CSS property adds shadows to text. It accepts a comma-separated list of shadows to be applied to the text and any of its decorations. Each shadow is described by some combination of X and Y offsets from the element, blur radius, and color.</p>
-
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <h3><a id="user-content-box-shadow---css-cascading-style-sheets--mdn" class="anchor" href="#box-shadow---css-cascading-style-sheets--mdn" aria-hidden="true"></a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow">box-shadow - CSS: Cascading Style Sheets | MDN</a></h3>
-<p>The box-shadow CSS property adds shadow effects around an element’s frame. You can set multiple effects separated by commas. A box shadow is described by X and Y offsets relative to the element, blur and spread radius, and color.</p>
-<pre><code class="language-css">/* offset-x | offset-y | blur-radius | spread-radius | color */
-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+            <h3><a id="user-content-charset---css-cascading-style-sheets--mdn" class="anchor" href="#charset---css-cascading-style-sheets--mdn" aria-hidden="true"></a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@charset">@charset - CSS: Cascading Style Sheets | MDN</a></h3>
+<blockquote>
+<p>@charset
+The @charset CSS at-rule specifies the character encoding used in the style sheet. It must be the first element in the style sheet and not be preceded by any character; as it is not a nested statement, it cannot be used inside conditional group at-rules. If several @charset at-rules are defined, only the first one is used, and it cannot be used inside a style attribute on an HTML element or inside the &lt;style&gt; element where the character set of the HTML page is relevant.</p>
+</blockquote>
+<pre><code class="language-css">@charset &quot;utf-8&quot;;
 </code></pre>
 
             </section>
@@ -311,10 +302,16 @@ box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     
         <section >
             
-            <h3><a id="user-content-border-image---css-cascading-style-sheets--mdn" class="anchor" href="#border-image---css-cascading-style-sheets--mdn" aria-hidden="true"></a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-image">border-image - CSS: Cascading Style Sheets | MDN</a></h3>
-<p>The border-image CSS property draws an image around a given element. It replaces the element’s regular border.</p>
-<pre><code class="language-css">/* source | slice */
-border-image: linear-gradient(red, blue) 27;
+            <h3><a id="user-content-font-face---css-cascading-style-sheets--mdn" class="anchor" href="#font-face---css-cascading-style-sheets--mdn" aria-hidden="true"></a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face">@font-face - CSS: Cascading Style Sheets | MDN</a></h3>
+<blockquote>
+<p>The @font-face CSS at-rule specifies a custom font with which to display text; the font can be loaded from either a remote server or a locally-installed font on the user’s own computer.</p>
+</blockquote>
+<h4><a id="user-content-syntax" class="anchor" href="#syntax" aria-hidden="true"></a>Syntax</h4>
+<pre><code class="language-css">@font-face {
+  font-family: &quot;Open Sans&quot;;
+  src: url(&quot;/fonts/OpenSans-Regular-webfont.woff2&quot;) format(&quot;woff2&quot;),
+       url(&quot;/fonts/OpenSans-Regular-webfont.woff&quot;) format(&quot;woff&quot;);
+}
 </code></pre>
 
             </section>
@@ -325,20 +322,34 @@ border-image: linear-gradient(red, blue) 27;
     
         <section >
             
-            <h3><a id="user-content-background---css-cascading-style-sheets--mdn" class="anchor" href="#background---css-cascading-style-sheets--mdn" aria-hidden="true"></a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background">background - CSS: Cascading Style Sheets | MDN</a></h3>
-<p>The background shorthand CSS property sets all background style properties at once, such as color, image, origin and size, or repeat method.</p>
+            <h3><a id="user-content-background-color---css-cascading-style-sheets--mdn" class="anchor" href="#background-color---css-cascading-style-sheets--mdn" aria-hidden="true"></a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-color">background-color - CSS: Cascading Style Sheets | MDN</a></h3>
+<blockquote>
+<p>The background-color CSS property sets the background color of an element.</p>
+</blockquote>
+<h4><a id="user-content-syntax-1" class="anchor" href="#syntax-1" aria-hidden="true"></a>Syntax</h4>
+<pre><code class="language-css">/* Keyword values */
+background-color: red;
+background-color: indigo;
 
-            </section>
-    
+/* Hexadecimal value */
+background-color: #bbff00;    /* Fully opaque */
+background-color: #bf0;       /* Fully opaque shorthand */
+background-color: #11ffee00;  /* Fully transparent */
+background-color: #1fe0;      /* Fully transparent shorthand  */
+background-color: #11ffeeff;  /* Fully opaque */
+background-color: #1fef;      /* Fully opaque shorthand  */
 
+/* RGB value */
+background-color: rgb(255, 255, 128);        /* Fully opaque */
+background-color: rgba(117, 190, 218, 0.5);  /* 50% transparent */
 
+/* HSL value */
+background-color: hsl(50, 33%, 25%);         /* Fully opaque */
+background-color: hsla(50, 33%, 25%, 0.75);  /* 75% opaque, i.e. 25% transparent */
 
-    
-        <section >
-            
-            <h3><a id="user-content-radial-gradient---css-cascading-style-sheets--mdn" class="anchor" href="#radial-gradient---css-cascading-style-sheets--mdn" aria-hidden="true"></a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient()">radial-gradient() - CSS: Cascading Style Sheets | MDN</a></h3>
-<p>The radial-gradient() CSS function creates an image consisting of a progressive transition between two or more colors that radiate from an origin. Its shape may be a circle or an ellipse. The function’s result is an object of the &lt;gradient&gt; data type, which is a special kind of &lt;image&gt;.</p>
-<pre><code class="language-css">radial-gradient(shape size at position, start-color, ..., last-color);
+/* Special keyword values */
+background-color: currentcolor;
+background-color: transparent;
 </code></pre>
 
             </section>
@@ -349,8 +360,43 @@ border-image: linear-gradient(red, blue) 27;
     
         <section >
             
-            <h3><a id="user-content-circle---css-cascading-style-sheets--mdn" class="anchor" href="#circle---css-cascading-style-sheets--mdn" aria-hidden="true"></a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape/circle()">circle() - CSS: Cascading Style Sheets | MDN</a></h3>
-<p>The circle() CSS function is one of the &lt;basic-shape&gt; data types.</p>
+            <h3><a id="user-content-color---css-cascading-style-sheets--mdn" class="anchor" href="#color---css-cascading-style-sheets--mdn" aria-hidden="true"></a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color">color - CSS: Cascading Style Sheets | MDN</a></h3>
+<blockquote>
+<p>The color CSS property sets the foreground color value of an element’s text and text decorations, and sets the &lt;currentcolor&gt; value. currentcolor may be used as an indirect value on other properties and is the default for other color properties, such as border-color.
+For an overview of using color in HTML, see Applying color to HTML elements using CSS.</p>
+</blockquote>
+<h4><a id="user-content-syntax-2" class="anchor" href="#syntax-2" aria-hidden="true"></a>Syntax</h4>
+<pre><code class="language-css">/* Keyword values */
+color: currentcolor;
+
+/* &lt;named-color&gt; values */
+color: red;
+color: orange;
+color: tan;
+color: rebeccapurple;
+
+/* &lt;hex-color&gt; values */
+color: #090;
+color: #009900;
+color: #090a;
+color: #009900aa;
+
+/* &lt;rgb()&gt; values */
+color: rgb(34, 12, 64, 0.6);
+color: rgba(34, 12, 64, 0.6);
+color: rgb(34 12 64 / 0.6);
+color: rgba(34 12 64 / 0.3);
+color: rgb(34.0 12 64 / 60%);
+color: rgba(34.6 12 64 / 30%);
+
+/* &lt;hsl()&gt; values */
+color: hsl(30, 100%, 50%, 0.6);
+color: hsla(30, 100%, 50%, 0.6);
+color: hsl(30 100% 50% / 0.6);
+color: hsla(30 100% 50% / 0.6);
+color: hsl(30.0 100% 50% / 60%);
+color: hsla(30.2 100% 50% / 60%);
+</code></pre>
 
             </section>
     
@@ -360,9 +406,236 @@ border-image: linear-gradient(red, blue) 27;
     
         <section >
             
-            <h3><a id="user-content-url---css-cascading-style-sheets--mdn" class="anchor" href="#url---css-cascading-style-sheets--mdn" aria-hidden="true"></a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/url()">url() - CSS: Cascading Style Sheets | MDN</a></h3>
-<p>The url() CSS function is used to include a file. The parameter is an absolute URL, a relative URL, or a data URI. The url() function can be passed as a parameter of another CSS functions, like the attr() function. Depending on the property for which it is a value, the resource sought can be an image, font, or a stylesheet. The url() functional notation is the value for the &lt;url&gt; data type.</p>
-<h4><a id="user-content-link-to-slideshow" class="anchor" href="#link-to-slideshow" aria-hidden="true"></a><a href="./Tutorial_Hints/export/index.html">Link to slideshow</a></h4>
+            <h3><a id="user-content-font-family---css-cascading-style-sheets--mdn" class="anchor" href="#font-family---css-cascading-style-sheets--mdn" aria-hidden="true"></a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-family">font-family - CSS: Cascading Style Sheets | MDN</a></h3>
+<blockquote>
+<p>The font-family CSS property specifies a prioritized list of one or more font family names and/or generic family names for the selected element.
+Values are separated by commas to indicate that they are alternatives. The browser will select the first font in the list that is installed or that can be downloaded using a @font-face at-rule.</p>
+</blockquote>
+<p>It is often convenient to use the shorthand property font to set font-size and other font related properties all at once.</p>
+<p>You should always include at least one generic family name in a font-family list, since there’s no guarantee that any given font is available. This lets the browser select an acceptable fallback font when necessary.</p>
+<p>The font-family property specifies a list of fonts, from highest priority to lowest. Font selection does not stop at the first font in the list that is on the user’s system. Rather, font selection is done one character at a time, so that if an available font does not have a glyph for a needed character, the latter fonts are tried. When a font is only available in some styles, variants, or sizes, those properties may also influence which font family is chosen.</p>
+<h4><a id="user-content-syntax-3" class="anchor" href="#syntax-3" aria-hidden="true"></a>Syntax</h4>
+<pre><code class="language-css">/* A font family name and a generic family name */
+font-family: &quot;Gill Sans Extrabold&quot;, sans-serif;
+font-family: &quot;Goudy Bookletter 1911&quot;, sans-serif;
+
+/* A generic family name only */
+font-family: serif;
+font-family: sans-serif;
+font-family: monospace;
+font-family: cursive;
+font-family: fantasy;
+font-family: system-ui;
+font-family: ui-serif;
+font-family: ui-sans-serif;
+font-family: ui-monospace;
+font-family: ui-rounded;
+font-family: emoji;
+font-family: math;
+font-family: fangsong;
+</code></pre>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3><a id="user-content-font---css-cascading-style-sheets--mdn" class="anchor" href="#font---css-cascading-style-sheets--mdn" aria-hidden="true"></a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font">font - CSS: Cascading Style Sheets | MDN</a></h3>
+<blockquote>
+<p>The font CSS shorthand property sets all the different properties of an element’s font. Alternatively, it sets an element’s font to a system font.</p>
+</blockquote>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3><a id="user-content-text-align---css-cascading-style-sheets--mdn" class="anchor" href="#text-align---css-cascading-style-sheets--mdn" aria-hidden="true"></a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-align">text-align - CSS: Cascading Style Sheets | MDN</a></h3>
+<blockquote>
+<p>The text-align CSS property sets the horizontal alignment of the content inside a block element or table-cell box. This means it works like vertical-align but in the horizontal direction.</p>
+</blockquote>
+<h4><a id="user-content-syntax-4" class="anchor" href="#syntax-4" aria-hidden="true"></a>Syntax</h4>
+<pre><code class="language-css">/* Keyword values */
+text-align: start;
+text-align: end;
+text-align: left;
+text-align: right;
+text-align: center;
+text-align: justify;
+text-align: justify-all;
+text-align: match-parent;
+
+/* Character-based alignment in a table column */
+text-align: &quot;.&quot;;
+text-align: &quot;.&quot; center;
+
+/* Block alignment values (Non-standard syntax) */
+text-align: -moz-center;
+text-align: -webkit-center;
+</code></pre>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3><a id="user-content-padding-left---css-cascading-style-sheets--mdn" class="anchor" href="#padding-left---css-cascading-style-sheets--mdn" aria-hidden="true"></a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/padding-left">padding-left - CSS: Cascading Style Sheets | MDN</a></h3>
+<blockquote>
+<p>The padding-left CSS property sets the width of the padding area to the left of an element.</p>
+</blockquote>
+<p>An element’s padding area is the space between its content and its border.</p>
+<p>Note: The padding property can be used to set paddings on all four sides of an element with a single declaration.</p>
+<h4><a id="user-content-syntax-5" class="anchor" href="#syntax-5" aria-hidden="true"></a>Syntax</h4>
+<pre><code class="language-css">/* &lt;length&gt; values */
+padding-left: 0.5em;
+padding-left: 0;
+padding-left: 2cm;
+
+/* &lt;percentage&gt; value */
+padding-left: 10%;
+</code></pre>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3><a id="user-content-font-weight---css-cascading-style-sheets--mdn" class="anchor" href="#font-weight---css-cascading-style-sheets--mdn" aria-hidden="true"></a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight">font-weight - CSS: Cascading Style Sheets | MDN</a></h3>
+<blockquote>
+<p>The font-weight CSS property sets the weight (or boldness) of the font. The weights available depend on the font-family that is currently set.</p>
+</blockquote>
+<h4><a id="user-content-syntax-6" class="anchor" href="#syntax-6" aria-hidden="true"></a>Syntax</h4>
+<pre><code class="language-css">/* Keyword values */
+font-weight: normal;
+font-weight: bold;
+</code></pre>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3><a id="user-content-letter-spacing---css-cascading-style-sheets--mdn" class="anchor" href="#letter-spacing---css-cascading-style-sheets--mdn" aria-hidden="true"></a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing">letter-spacing - CSS: Cascading Style Sheets | MDN</a></h3>
+<blockquote>
+<p>The letter-spacing CSS property sets the horizontal spacing behavior between text characters. This value is added to the natural spacing between characters while rendering the text. Positive values of letter-spacing causes characters to spread farther apart, while negative values of letter-spacing bring characters closer together.</p>
+</blockquote>
+<h4><a id="user-content-syntax-7" class="anchor" href="#syntax-7" aria-hidden="true"></a>Syntax</h4>
+<pre><code class="language-css">/* Keyword value */
+letter-spacing: normal;
+
+/* &lt;length&gt; values */
+letter-spacing: 0.3em;
+letter-spacing: 3px;
+letter-spacing: 0.3px;
+</code></pre>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3><a id="user-content-quotes---css-cascading-style-sheets--mdn" class="anchor" href="#quotes---css-cascading-style-sheets--mdn" aria-hidden="true"></a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/quotes">quotes - CSS: Cascading Style Sheets | MDN</a></h3>
+<blockquote>
+<p>The quotes CSS property sets how the browser should render quotation marks that are added using the open-quotes or close-quotes values of the CSS content property.</p>
+</blockquote>
+<h4><a id="user-content-syntax-8" class="anchor" href="#syntax-8" aria-hidden="true"></a>Syntax</h4>
+<pre><code class="language-css">/* Keyword value */
+quotes: none;
+quotes: auto;
+
+/* &lt;string&gt; values */
+quotes: &quot;«&quot; &quot;»&quot;;           /* Set open-quote and close-quote to the French quotation marks */
+quotes: &quot;«&quot; &quot;»&quot; &quot;‹&quot; &quot;›&quot;;   /* Set two levels of quotation marks */
+</code></pre>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3><a id="user-content-content---css-cascading-style-sheets--mdn" class="anchor" href="#content---css-cascading-style-sheets--mdn" aria-hidden="true"></a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/content">content - CSS: Cascading Style Sheets | MDN</a></h3>
+<blockquote>
+<p>The content CSS property replaces an element with a generated value. Objects inserted using the content property are anonymous replaced elements.</p>
+</blockquote>
+<h4><a id="user-content-syntax-9" class="anchor" href="#syntax-9" aria-hidden="true"></a>Syntax</h4>
+<pre><code class="language-css">/* Keywords that cannot be combined with other values */
+content: normal;
+content: none;
+
+/* &lt;image&gt; values */
+content: url(&quot;http://www.example.com/test.png&quot;);
+content: linear-gradient(#e66465, #9198e5);
+content: image-set(&quot;image1x.png&quot; 1x, &quot;image2x.png&quot; 2x);
+
+/* alt text for generated content, added in the Level 3 specification */
+content: url(&quot;http://www.example.com/test.png&quot;) / &quot;This is the alt text&quot;;
+
+/* &lt;string&gt; value */
+content: &quot;prefix&quot;;
+
+/* &lt;counter&gt; values, optionally with &lt;list-style-type&gt; */
+content: counter(chapter_counter);
+content: counter(chapter_counter, upper-roman);
+content: counters(section_counter, &quot;.&quot;);
+content: counters(section_counter, &quot;.&quot;, decimal-leading-zero);
+
+/* attr() value linked to the HTML attribute value */
+content: attr(value string);
+
+/* Language- and position-dependent keywords */
+content: open-quote;
+content: close-quote;
+content: no-open-quote;
+content: no-close-quote;
+</code></pre>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3><a id="user-content-line-height---css-cascading-style-sheets--mdn" class="anchor" href="#line-height---css-cascading-style-sheets--mdn" aria-hidden="true"></a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/line-height">line-height - CSS: Cascading Style Sheets | MDN</a></h3>
+<blockquote>
+<p>The line-height CSS property sets the height of a line box. It’s commonly used to set the distance between lines of text. On block-level elements, it specifies the minimum height of line boxes within the element. On non-replaced inline elements, it specifies the height that is used to calculate line box height.</p>
+</blockquote>
+<h4><a id="user-content-syntax-10" class="anchor" href="#syntax-10" aria-hidden="true"></a>Syntax</h4>
+<pre><code class="language-css">/* Keyword value */
+line-height: normal;
+
+/* Unitless values: use this number multiplied
+by the element's font size */
+line-height: 3.5;
+
+/* &lt;length&gt; values */
+line-height: 3em;
+
+/* &lt;percentage&gt; values */
+line-height: 34%;
+</code></pre>
 
             </section>
     
