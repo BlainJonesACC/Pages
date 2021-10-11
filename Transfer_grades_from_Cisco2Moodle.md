@@ -36,5 +36,5 @@
 3. Drag file to the "You can drag and drop files here to add them."
 4. Click "Upload grades"
 5. Map from "Email address" to "Email address"
-6. In the "Grade item mappings" map "Course total (Real)" to "Cisco Academy Grad"
+6. In the "Grade item mappings" map "Course total (Real)" to "Cisco Academy Grade"
 7. Click "Upload grades"
