@@ -2,54 +2,64 @@
 
 ## CTI-120-01H-2021FA-Network & Sec Foundation
 
-### [Grades: View: Single view](https://lms.netacad.com/grade/report/singleview/index.php?id=709012)
+### Record Zero for Empty Grades
 
-1. Select assignments pass due  
-2. Perform bulk insert for empty grades with the value Zero (O).
+1. [Grades: View: Single view](https://lms.netacad.com/grade/report/singleview/index.php?id=709012)
+2. Select assignments that are pass due
+3. Perform bulk insert for empty grades with the value Zero (O).
+
+### Export Grades
 
 1. [Grades: Export](https://lms.netacad.com/grade/export/txt/index.php?id=709012) to Plain text file.
 1. Select only course total.
-5. Download plain text file
+1. Download plain text file
 
-### [Grades: View: Single view](https://lms.netacad.com/grade/report/singleview/index.php?id=709012)
+### Remove Zeros for Empty Grades
 
-1. Select assignments pass due  
-2. Perform bulk removal of grade override.
-3. Save
+1. [Grades: View: Single view](https://lms.netacad.com/grade/report/singleview/index.php?id=709012) 
+2. Select assignments that are pass due  
+3. Perform bulk removal of grade override.
+4. Save
 
-### [Grades: Import CSV](https://alamancecc.mrooms.net/grade/import/csv/index.php?id=8600)
+### Import grades in to Moodle
 
-1. Locate downloaded plain text file in finder/file explorer 
-2. Drag file to the "You can drag and drop files here to add them."
-3. Click "Upload grades"
-4. Map from "Email address" to "Email address"
-5. In the "Grade item mappings" map "Course total (Real)" to "Cisco Academy Grad"
-6. Click "Upload grades"
+1. [Grades: Import CSV](https://alamancecc.mrooms.net/grade/import/csv/index.php?id=8600)
+2. Locate downloaded plain text file in finder/file explorer
+3. Drag file to the "You can drag and drop files here to add them."
+4. Click "Upload grades"
+5. Map from "Email address" to "Email address"
+6. In the "Grade item mappings" map "Course total (Real)" to "Cisco Academy Grad"
+7. Click "Upload grades"
 
 ---
 
 ## CTI-120-02E-2021FA-Network & Sec Foundation
 
-### [Grades: View: Single view](https://lms.netacad.com/grade/report/singleview/index.php?id=709016)
+### Record Zero for Empty Grades
 
-1. Select assignments pass due  
-2. Perform bulk insert for empty grades with the value Zero (O).
+1. Goto [Grades: View: Single view](https://lms.netacad.com/grade/report/singleview/index.php?id=709016) on Moodle
+2. Select assignments that are pass due  
+3. Perform bulk insert for empty grades with the value Zero (O).
+
+### Export Grades
 
 1. [Grades: Export](https://lms.netacad.com/grade/export/txt/index.php?id=709016) to Plain text file.
-1. Select only course total.
-5. Download plain text file
+2. Select only course total.
+3. Download plain text file
 
-### [Grades: View: Single view](https://lms.netacad.com/grade/report/singleview/index.php?id=709016)
+### Remove Zeros for Empty Grades
 
-1. Select assignments pass due  
-2. Perform bulk removal of grade override.
-3. Save
+1. [Grades: View: Single view](https://lms.netacad.com/grade/report/singleview/index.php?id=709016) 
+2. Select assignments that are pass due  
+3. Perform bulk removal of grade override.
+4. Save
 
-### [Grades: Import CSV](https://alamancecc.mrooms.net/grade/import/csv/index.php?id=8601)
+### Import grades in to Moodle
 
-1. Locate downloaded plain text file in finder/file explorer 
-2. Drag file to the "You can drag and drop files here to add them."
-3. Click "Upload grades"
-4. Map from "Email address" to "Email address"
-5. In the "Grade item mappings" map "Course total (Real)" to "Cisco Academy Grad"
-6. Click "Upload grades"
+1. Goto [Grades: Import CSV](https://alamancecc.mrooms.net/grade/import/csv/index.php?id=8601) on Moodle
+2. Locate downloaded plain text file in finder/file explorer
+3. Drag file to the "You can drag and drop files here to add them."
+4. Click "Upload grades"
+5. Map from "Email address" to "Email address"
+6. In the "Grade item mappings" map "Course total (Real)" to "Cisco Academy Grad"
+7. Click "Upload grades"
