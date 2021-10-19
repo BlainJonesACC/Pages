@@ -58,6 +58,8 @@ Distance Education/Online, ONLNE Online Lab
 
 ### [CTI-120-01H: Network & Sec Foundation Grades: View](https://alamancecc.mrooms.net/grade/report/grader/index.php?id=8600)
 
+### [202103_CTI-120-01H_syllabus.pdf - Google Drive](https://drive.google.com/file/d/1qaxT_QEv2Vg36bxcElThaXH9wz3EIrwY/view)
+
 ---
 
 ### [CTI-120-02E: Network & Sec Foundation - AlamanceCC Self-Service](https://ss-prod.cloud.alamancecc.edu/Student/Student/Faculty/FacultyNavigation/71365)
