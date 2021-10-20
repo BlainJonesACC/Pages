@@ -15,6 +15,6 @@
 
 #### Programming
 
-- [Program: tidbit.py Project 3.10](./FoP_FirstProg/Chapter%203/flowcharts_pseudocode/3.10/tidbit)
+- [Program: tidbit.py Project 3.10](./FoP_FirstProg/Chapter_3/flowcharts_pseudocode/3.10/tidbit)
 
 #### Database
