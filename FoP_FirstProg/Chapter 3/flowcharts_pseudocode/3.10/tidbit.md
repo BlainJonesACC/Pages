@@ -1,6 +1,6 @@
 # Program: tidbit.py
 
-## Project 1.5
+## Project 3.10
 
 Print a payment schedule for a loan to purchase a computer.
 
