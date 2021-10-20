@@ -12,11 +12,13 @@ Constants
    downpayment = 10% of purchase price
    monthly payment = 5% of purchase price
 
-### Flowchart
-
 ---
 
+### Flowchart
+
 ![tidbit flowchart](tidbit.flow.svg)
+
+---
 
 ### Starter Code
 
