@@ -16,11 +16,11 @@ The amount of interest for a month is equal to balance × rate / 12.
 
 The amount of principal for a month is equal to the monthly payment minus the interest owed.
 
-### Example Output
+### Example Input Output
 
-```bash
 An example of the program input and output is shown below:
 
+```bash
 Enter the purchase price: 200
 
 Month  Starting Balance  Interest to Pay  Principal to Pay  Payment  Ending Balance
