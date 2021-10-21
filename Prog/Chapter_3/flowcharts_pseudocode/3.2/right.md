@@ -11,7 +11,7 @@ Recall from the Pythagorean theorem that in a right triangle, the square of one 
 Use The triangle is a right triangle. and The triangle is not a right triangle. as your final outputs.
 An example of the program input and proper output format is shown below:
 
-```bash
+```text
 Enter the first side : 3
 Enter the second side: 4
 Enter the third side : 5

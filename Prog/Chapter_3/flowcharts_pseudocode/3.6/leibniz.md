@@ -12,7 +12,7 @@ Write a program that allows the user to specify the number of iterations used in
 
 An example of the program input and output is shown below:
 
-```bash
+```text
 Enter the number of iterations: 5
 
 The approximation of pi is 3.3396825396825403

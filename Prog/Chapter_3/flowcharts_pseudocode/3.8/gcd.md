@@ -14,7 +14,7 @@ The larger number at this point is the GCD of A and B. Write a program that lets
 
 An example of the program input and output is shown below:
 
-```bash
+```text
 Enter the smaller number: 5
 Enter the larger number: 15
 

@@ -20,7 +20,7 @@ The amount of principal for a month is equal to the monthly payment minus the in
 
 An example of the program input and output is shown below:
 
-```bash
+```text
 Enter the purchase price: 200
 
 Month  Starting Balance  Interest to Pay  Principal to Pay  Payment  Ending Balance

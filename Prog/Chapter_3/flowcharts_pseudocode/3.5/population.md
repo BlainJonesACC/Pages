@@ -16,7 +16,7 @@ Write a program that takes these inputs and displays a prediction of the total p
 
 An example of the program input and output is shown below:
 
-```bash
+```text
 Enter the initial number of organisms: 10
 Enter the rate of growth [a real number > 1]: 2
 Enter the number of hours to achieve the rate of growth: 2

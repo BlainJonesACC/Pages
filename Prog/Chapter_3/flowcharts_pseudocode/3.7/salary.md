@@ -17,7 +17,7 @@ Each row in the schedule should contain the year number and the salary for that 
 
 An example of the program input and output is shown below:
 
-```bash
+```text
 Enter the starting salary: $30000
 Enter the annual % increase: 2
 Enter the number of years: 10

@@ -11,7 +11,7 @@ Edit the program provided so that it receives a series of numbers from the user 
 
 An example of the program input and output is shown below:
 
-```bash
+```text
 Enter a number or press Enter to quit: 1
 Enter a number or press Enter to quit: 2
 Enter a number or press Enter to quit: 3

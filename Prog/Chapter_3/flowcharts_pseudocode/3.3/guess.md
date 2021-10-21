@@ -13,7 +13,7 @@ Modify the guessing-game program so that the user thinks of a number that the co
 
 Below are two test runs of the program:
 
-```bash
+```text
 Enter the smaller number: 0
 Enter the larger number: 10
 

@@ -11,7 +11,7 @@ The program output should indicate whether or not the triangle is an equilateral
 Use The triangle is equilateral. and The triangle is not equilateral. as your final outputs.
 An example of the program inputs and output is shown below:
 
-```bash
+```text
 Enter the first side: 2
 Enter the second side: 2
 Enter the third side: 2
