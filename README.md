@@ -8,8 +8,8 @@
 
 ### CTI-110 Assignments Hints
 
-#### [Web](Web_Tutorial_Hints/Readme.md)
+- [Web](Web_Tutorial_Hints/Readme.md)
 
-#### [Programming](FoP_FirstProg/Readme.md)
+- [Programming](FoP_FirstProg/Readme.md)
 
-#### Database
+- Database
