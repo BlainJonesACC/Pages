@@ -9,7 +9,6 @@
 ### Chapter 3
 
 - [X] [Project 3.1](Chapter_3/flowcharts_pseudocode/3.1/equilateral.md)
-
 - [X] [Project 3.2](Chapter_3/flowcharts_pseudocode/3.2/right.md)
 - [X] [Project 3.3](Chapter_3/flowcharts_pseudocode/3.3/guess.md)
 - [X] [Project 3.4](Chapter_3/flowcharts_pseudocode/3.4/bouncy.md)
