@@ -2,33 +2,49 @@
 
 ## Project 3.9
 
-Computes the sum and average of a series of input numbers.
+### Instructions
 
-### Flowchart
+Edit the program provided so that it receives a series of numbers from the user and allows the user to press the enter key to indicate that he or she is finished providing inputs. After the user presses the enter key, the program should print:
+
+1. The sum of the numbers
+2. The average of the numbers
+
+An example of the program input and output is shown below:
+
+```bash
+Enter a number or press Enter to quit: 1
+Enter a number or press Enter to quit: 2
+Enter a number or press Enter to quit: 3
+Enter a number or press Enter to quit:
+
+The sum is 6.0
+The average is 2.0
+```
 
 ---
 
-```flow
-st=>start: Start
-e=>end: End
-op4=>operation: theSum = 0
-op6=>operation: count = 0
-cond9=>condition: while True
-op31=>inputoutput: number = input('Enter a number or press Enter to quit: ')
-cond34=>operation: break if  (number == '')
-op44=>operation: theSum += float(number)
-op46=>operation: count += 1
-sub50=>inputoutput: print('The sum is', theSum)
-cond53=>inputoutput: print('The average is', (theSum / count)) if  (count > 0)
+#### Flowchart
 
-st->op4
-op4->op6
-op6->cond9
-cond9(yes)->op31
-op31->cond34
-cond34->op44
-op44->op46
-op46(left)->cond9
-cond9(no)->sub50
-sub50->cond53
+![flowchart](sum.flow.svg)
+
+---
+
+#### Starter Code
+
+```python
+"""
+Program: sum.py
+Project 3.9
+
+Computes the sum and average of a series of input numbers.
+"""
+
+theSum = 0.0
+data = input("Enter a number: ")
+while data != "":
+    number = float(data)
+    theSum += number
+    data = input("Enter the next number: ")
+print("The sum is", theSum)
+
 ```

@@ -2,9 +2,58 @@
 
 ## Project 3.7
 
+### Instructions
+Teachers in most school districts are paid on a schedule that provides a salary based on their number of years of teaching experience.
+
+For example, a beginning teacher in the Lexington School District might be paid $30,000 the first year. For each year of experience after this first year, up to 10 years, the teacher receives a 2% increase over the preceding value.
+
+Write a program that displays a salary schedule, in tabular format, for teachers in a school district. The inputs are:
+
+1. Starting salary
+2. Annual percentage increase
+3. Number of years for which to print the schedule
+
+Each row in the schedule should contain the year number and the salary for that year
+
+An example of the program input and output is shown below:
+
+```bash
+Enter the starting salary: $30000
+Enter the annual % increase: 2
+Enter the number of years: 10
+
+Year   Salary
+-------------
+ 1    30000.00
+ 2    30600.00
+ 3    31212.00
+ 4    31836.24
+ 5    32472.96
+ 6    33122.42
+ 7    33784.87
+ 8    34460.57
+ 9    35149.78
+10    35852.78
+```
+
+---
+
+#### Flowchart
+
+![flowchart](salary.flow.svg)
+
+---
+
+#### Starter Code
+
+```python
+"""
+Program: salary.py
+Project 3.7
+
 Compute a school district's salary schedule.
 
-Inputs
+Inputs 
    starting salary
    annual percentage increase
    number of years for which to print the schedule
@@ -12,30 +61,14 @@ Inputs
 Outputs
     Two columns containing the year and the salary
     after the increase.
+"""
 
-### Flowchart
+# Accept the inputs
 
----
+# Output Header
 
-```flow
-st=>start: Start
-e=>end: End
-op4=>inputoutput: Enter the starting salary: $
-Enter the annual % increase: 
-Enter the number of years: 
-op6=>inputoutput: Year    Salary
----------------
-op12=>operation: multiplier = (1 + (increase / 100))
-nextSal = startSal
-cond17=>condition: for year in range(1, (years + 1))
-sub26=>inputoutput: print(('%2d%12.2f' % (year, nextSal)))
-op28=>operation: nextSal *= multiplier
+# Compute and display the results
 
-st->op4
-op4->op6
-op6->op12
-op12->cond17
-cond17(yes)->sub26
-sub26->op28
-op28(left)->cond17
+    # calculate next salary
+
 ```

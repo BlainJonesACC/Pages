@@ -68,32 +68,22 @@ Project 3.3
 The computer guesses the user's number using the minimum
 number of attempts and prevents cheating by the user.
 """
-# Import module(s)
 
-# Request the inputs
+import random
 
-# Compute the maximum guesses
-
-# Initialize loop variables
-
-# Loop through till out of guesses
-
-    # Output smaller and larger number
-
-    # Calculate the number your number
-
-    # Output the number calculated
-
-    # Input your answer
-
-    # Test if answer is equal to "="
-
-    # Else test if out of guesses
-
-    # Else test if answer is equal to "<"
-
-        # Change larger number
-
-    # Else change smaller number
+smaller = int(input("Enter the smaller number: "))
+larger = int(input("Enter the larger number: "))
+myNumber = random.randint(smaller, larger)
+count = 0
+while True:
+    count += 1
+    userNumber = int(input("Enter your guess: "))
+    if userNumber < myNumber:
+        print("Too small")
+    elif userNumber > myNumber:
+        print("Too large")
+    else:
+        print("You've got it in", count, "tries!")
+        break
 
 ```
