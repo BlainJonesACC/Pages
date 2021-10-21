@@ -10,6 +10,6 @@
 
 - [Web](Web_Tutorial_Hints/Readme.md)
 
-- [Programming](FoP_FirstProg/Readme.md)
+- [Programming](Prog/Readme.md)
 
 - Database
