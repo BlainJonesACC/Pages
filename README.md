@@ -6,15 +6,13 @@
 
 - [MindTap Share Link instruction](./MindTap_Share_URL/Readme.md)
 
-### Tutorial Hints
+### CTI-110 Assignments Hints
 
-#### Web
+#### [Web](Web_Tutorial_Hints/Readme.md)
 
 - [Tutorial 2 Review Assignment](./Tutorial_Hints/T2-Review.md)
 - [Tutorial 4 Coding Challenge 4](./Tutorial_Hints/T4-4_hints.md)
 
 #### [Programming](FoP_FirstProg/Readme.md)
-
-- [Program: tidbit.py Project 3.10](./FoP_FirstProg/Chapter_3/flowcharts_pseudocode/3.10/tidbit)
 
 #### Database
