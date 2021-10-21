@@ -4,7 +4,7 @@
 
 This program calculates the total distance a ball travels as it bounces given: the initial height of the ball. its bounciness index. the number of times the ball is allowed to continue bouncing
 
-### Flowchart
+#### Flowchart
 
 ---
 

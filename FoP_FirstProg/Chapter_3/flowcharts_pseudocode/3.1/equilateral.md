@@ -2,33 +2,30 @@
 
 ## Project 3.1
 
-Determine whether or not three input sides compose an equilateral triangle.
+### Instructions
+
+Write a program that accepts the lengths of three sides of a triangle as inputs.
+
+The program output should indicate whether or not the triangle is an equilateral triangle.
+
+Use The triangle is equilateral. and The triangle is not equilateral. as your final outputs.
+An example of the program inputs and output is shown below:
+
+```bash
+Enter the first side: 2
+Enter the second side: 2
+Enter the third side: 2
+
+The triangle is equilateral.
+```
 
 ---
 
-### Flowchart
+#### Flowchart
 
-```flow
-st=>start: Start
-e=>end: End
-op4=>inputoutput: Enter the first side
-Enter the second side
-Enter the third side
-cond11=>condition: Test if 
-side1 == side2
-and 
-side2 == side3
-sub15=>inputoutput: The triangle is equilateral.
-sub19=>inputoutput: The triangle is not equilateral.
+![equilateral flowchart](equilateral.svg)
 
-st->op4
-op4->cond11
-cond11(yes)->sub15->e
-cond11(no)->sub19->e
-
-```
-
-### Starter Code
+#### Starter Code
 
 ```python
 """

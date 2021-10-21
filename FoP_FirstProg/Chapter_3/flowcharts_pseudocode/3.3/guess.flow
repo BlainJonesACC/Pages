@@ -1,0 +1,51 @@
+st=>start: Start
+e=>end: End
+op4=>operation: import module
+io6=>inputoutput: Request the inputs
+Enter the smaller number
+Enter the larger number
+op10=>operation: Initialize loop variables
+op12=>operation: Compute the maximum guesses
+cond15=>condition: Loop through till
+out of guesses
+io66=>operation: count += 1
+io68=>inputoutput: Output smaller and larger number
+op70=>operation: Calculate the number your number
+io72=>inputoutput: Output the number calculated
+io74=>inputoutput: Enter =, <, or >: 
+cond77=>condition: Test if answer is
+equal to "="
+io81=>inputoutput: Hooray, I've got it in X tries!
+sub83=>subroutine: break
+cond88=>condition: Else test
+if out of
+guesses
+sub92=>inputoutput: I'm out of guesses, and you cheated!
+sub94=>subroutine: break
+cond99=>condition: Else test
+if answer is
+equal to "<"
+op103=>operation: Change larger number
+op107=>operation: Else change smaller number
+
+st->op4
+op4->io6
+io6->op10
+op10->op12
+op12->cond15
+cond15(yes)->io66
+io66->io68
+io68->op70
+op70->io72
+io72->io74
+io74->cond77
+cond77(yes)->io81
+io81->e
+cond77(no)->cond88
+cond88(yes)->sub92
+sub92->e
+cond88(no)->cond99
+cond99(yes)->op103
+op103(right)->cond15
+cond99(no)->op107
+op107(top)->cond15

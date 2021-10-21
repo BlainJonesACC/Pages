@@ -1,0 +1,16 @@
+st=>start: Start
+e=>end: End
+io4=>inputoutput: Enter the first side
+Enter the second side
+Enter the third side
+cond11=>condition: Test if 
+side1 equal side2
+and 
+side2 equal side3
+sub15=>inputoutput: The triangle is equilateral.
+sub19=>inputoutput: The triangle is not equilateral.
+
+st->io4
+io4->cond11
+cond11(yes)->sub15->e
+cond11(no)->sub19->e

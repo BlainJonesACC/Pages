@@ -2,55 +2,98 @@
 
 ## Project 3.3
 
-The computer guesses the user's number using the minimum\nnumber of attempts and prevents cheating by the user.
+### Instructions
+
+Modify the guessing-game program so that the user thinks of a number that the computer must guess.
+
+- The computer must make no more than the minimum number of guesses, and it must prevent the user from cheating by entering misleading hints.
+- Use **I'm out of guesses, and you cheated** and **Hooray, I've got it in X tries** as your final output.
+
+>(Hint: Use the math.log function to compute the minimum number of guesses needed after the lower and upper bounds are entered.)
+
+Below are two test runs of the program:
+
+```bash
+Enter the smaller number: 0
+Enter the larger number: 10
+
+0 10
+Your number is 5
+Enter =, <, or >: <
+0 4
+Your number is 2
+Enter =, <, or >: >
+3 4
+Your number is 3
+Enter =, <, or >: =
+Hooray, I've got it in 3 tries!
+Enter the smaller number: 0
+Enter the larger number: 50
+0 50
+Your number is 25
+Enter =, <, or >: <
+0 24
+Your number is 12
+Enter =, <, or >: <
+0 11
+Your number is 5
+Enter =, <, or >: <
+0 4
+Your number is 2
+Enter =, <, or >: <
+0 1
+Your number is 0
+Enter =, <, or >: >
+1 1
+Your number is 1
+Enter =, <, or >: >
+I'm out of guesses, and you cheated!
+```
 
 ### Flowchart
 
 ---
 
-```flow
-st=>start: Start
-e=>end: End
-op4=>operation: import math
-op6=>inputoutput: Enter the smaller number
-Enter the larger number
-op12=>operation: count = 0
-op10=>operation: maxGuesses = round(math.log(((larger - smaller) + 1), 2))
-cond15=>condition: while True
-op66=>operation: count += 1
-sub68=>inputoutput: output smaller  & larger
-op70=>operation: (smaller + larger) // 2)
-sub72=>inputoutput: Your number is ?
-op74=>inputoutput: Enter =, <, or >: ')
-cond77=>condition: if (answer == '=')
-sub81=>inputoutput: Hooray, I've got it in X tries!
-sub83=>subroutine: break
-cond88=>condition: if (count == maxGuesses)
-sub92=>inputoutput: I'm out of guesses, and you cheated!
-sub94=>subroutine: break
-cond99=>condition: if (answer == '<')
-op103=>operation: larger = (yourNumber - 1)
-op107=>operation: smaller = (yourNumber + 1)
+![flowchart](guess.flow.svg)
 
-st->op4
-op4->op6
-op6->op10
-op10->op12
-op12->cond15
-cond15(yes)->op66
-op66->sub68
-sub68->op70
-op70->sub72
-sub72->op74
-op74->cond77
-cond77(yes)->sub81
-sub81->sub83->e
-cond77(no)->cond88
-cond88(yes)->sub92
-sub92->sub94->e
-cond88(no)->cond99
-cond99(yes)->op103
-op103(right)->cond15
-cond99(no)->op107
-op107(right)->cond15
+---
+
+#### Starter Code
+
+```python
+"""
+Program: guess.py
+Project 3.3
+
+The computer guesses the user's number using the minimum
+number of attempts and prevents cheating by the user.
+"""
+# Import module(s)
+
+# Request the inputs
+
+# Compute the maximum guesses
+
+# Initialize loop variables
+
+# Loop through till out of guesses
+
+    # Output smaller and larger number
+
+    # Calculate the number your number
+
+    # Output the number calculated
+
+    # Input your answer
+
+    # Test if answer is equal to "="
+
+    # Else test if out of guesses
+
+    # Else test if answer is equal to "<"
+
+        # Change larger number
+
+    # Else change smaller number
+
 ```
