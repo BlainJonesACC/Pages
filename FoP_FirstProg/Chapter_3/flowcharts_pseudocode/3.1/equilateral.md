@@ -4,9 +4,9 @@
 
 Determine whether or not three input sides compose an equilateral triangle.
 
-### Flowchart
-
 ---
+
+### Flowchart
 
 ```flow
 st=>start: Start
