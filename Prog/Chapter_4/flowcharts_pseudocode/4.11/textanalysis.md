@@ -1,36 +1,29 @@
+# Project 4.9
 
-Program: textanalysis.py
-Project 4.9
+## Program: textanalysis.py
+
+### Instructions
 
 Computes and displays the Flesch Index and the Grade
 Level Equivalent for the readability of a text file.
 Updated to count syllables containing multiple vowels
 as single syllables.
 
+---
 
-# Take the inputs
+### Flowcharts
 
-# Count the sentences
-
-# Count the words
-
-# Count the syllables
-
-# Compute the Flesch Index and Grade Level
-
-# Output the results
-
-```mermaid
+```flow
 st=>start: Start
 e=>end: End
-op4=>operation: Enter the file name
-op6=>operation: open file read only
-op8=>operation: read text into var
-op10=>operation: Count sentences
-op12=>operation: count words
-op14=>operation: Initialize syllables to 0
-op16=>operation: Initialize vowels
-cond19=>condition: for each word in text
+op4=>input: Enter the file name
+op6=>operation: Open text file read only
+op8=>operation: Read text file into string variable
+op10=>operation: Count number of sentences
+op12=>operation: Count number of words
+op14=>operation: Initialize syllables count to 0
+op16=>operation: Initialize vowels 
+cond19=>condition: Loop through each word in text
 op121=>operation: Initialize vowelSeen = False
 cond124=>condition: for each character in word
 cond153=>condition: if ((not vowelSeen) and (character in vowels))
@@ -80,12 +73,62 @@ sub230->sub232
 sub232->e
 ```
 
-![flowchart](.flow.svg)
+![textanalysis flowchart](textanalysis.flow.svg)
 
 ---
 
-#### Starter Code
+### Starter Code
 
 ```python
+"""
+Program: textanalysis.py
+Author: Ken
+Computes and displays the Flesch Index and the Grade
+Level Equivalent for the readability of a text file.
+"""
+
+# Take the inputs
+fileName = input("Enter the file name: ")
+inputFile = open(fileName, 'r')
+text = inputFile.read()
+
+# Count the sentences
+sentences = text.count('.') + text.count('?') + \
+    text.count(':') + text.count(';') + \
+        text.count('!')
+
+# Count the words
+words = len(text.split())
+
+# Count the syllables
+syllables = 0
+vowels = "aeiouAEIOU"
+for word in text.split():
+    for vowel in vowels:
+        syllables += word.count(vowel)
+    for ending in ['es', 'ed', 'e']:
+        if word.endswith(ending):
+            syllables -= 1
+    if word.endswith('le'):
+        syllables += 1
+
+# Compute the Flesch Index and Grade Level
+index = 206.835 - 1.015 * (words / sentences) - \
+    84.6 * (syllables / words)
+level = int(round(0.39 * (words / sentences) + 11.8 * 
+                  (syllables / words) - 15.59))
+
+# Output the results
+print("The Flesch Index is", index)
+print("The Grade Level Equivalent is", level)
+print(sentences, "sentences")
+print(words, "words")
+print(syllables, "syllables")     
+
+```
+
+### Test Text
+
+```text
 
 ```
