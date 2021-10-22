@@ -35,7 +35,7 @@ The Grade Level Equivalent is 1
 
 #### Final Flowchart
 
-![textanalysis flowchart](textanalysis.flow.svg)
+![textanalysis flowchart](textanalysis.flow.svg))
 
 ---
 
