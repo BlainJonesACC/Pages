@@ -1,6 +1,6 @@
-# Program: payroll.py
+# Project 4.12
 
-## Project 4.12
+## Program: payroll.py
 
 ### Instructions
 
