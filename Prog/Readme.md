@@ -54,5 +54,5 @@
 - [ ] Project 4.8
 - [ ] Project 4.9
 - [ ] Project 4.10
-- [ ] Project 4.11
+- [X] [Project 4.11](Chapter_4/flowcharts_pseudocode/4.11/textanalysis.md)
 - [X] [Project 4.12](Chapter_4/flowcharts_pseudocode/4.12/payroll.md)

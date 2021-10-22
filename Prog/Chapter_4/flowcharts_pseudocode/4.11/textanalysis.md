@@ -4,14 +4,36 @@
 
 ### Instructions
 
-Computes and displays the Flesch Index and the Grade
-Level Equivalent for the readability of a text file.
-Updated to count syllables containing multiple vowels
-as single syllables.
+Jack just completed the program for the Flesch text analysis from this chapter’s case study. His supervisor, Jill, has discovered an error in his code. The error causes the program to count a syllable containing consecutive vowels as multiple syllables.
+
+Suggest a solution to this problem in Jack’s code and modify the program so that it handles these cases correctly.
+
+An example text and the program input and output is shown below:
+
+example.txt
+
+```text
+Or to take arms against a sea of troubles, And by opposing end them? To die: to sleep.
+```
+
+```text
+Enter the file name: example.txt
+The Flesch Index is 102.045
+The Grade Level Equivalent is 1
+3 sentences
+18 words
+21 syllables
+```
 
 ---
 
 ### Flowcharts
+
+#### Start file flowchart
+
+![textanalysis flowchart](textanalysis_starter.flow.svg)
+
+#### Final Flowchart
 
 ![textanalysis flowchart](textanalysis.flow.svg)
 
@@ -67,8 +89,6 @@ print(syllables, "syllables")
 
 ```
 
-### Test Text
+### Test File
 
-```text
-
-```
+[example.txt](example.txt)
