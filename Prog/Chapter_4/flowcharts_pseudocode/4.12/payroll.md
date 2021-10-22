@@ -29,13 +29,13 @@ Giacometti          5         503.50
 
 ---
 
-#### Flowchart
+### Flowchart
 
 ![payroll flowchart](payroll.flow.svg)
 
 ---
 
-#### Starter Code
+### Starter Code
 
 ```python
 """
@@ -77,7 +77,7 @@ Output
 
 ```
 
-#### Data File
+### Data File
 
 ```text
 Lambert 34 10.50
