@@ -8,7 +8,7 @@
 
 ### Chapter 1
 
-- [ ] Project 1.1
+<!-- - [ ] Project 1.1
 - [ ] Project 1.2
 - [ ] Project 1.3
 - [ ] Project 1.4
@@ -17,11 +17,11 @@
 - [ ] Project 1.7
 - [ ] Project 1.8
 - [ ] Project 1.9
-- [ ] Project 1.10
+- [ ] Project 1.10 -->
 
 ### Chapter 2
 
-- [ ] Project 2.1
+<!-- - [ ] Project 2.1
 - [ ] Project 2.2
 - [ ] Project 2.3
 - [ ] Project 2.4
@@ -30,7 +30,7 @@
 - [ ] Project 2.7
 - [ ] Project 2.8
 - [ ] Project 2.9
-- [ ] Project 2.10
+- [ ] Project 2.10 -->
 
 ### Chapter 3
 
