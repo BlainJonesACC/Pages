@@ -26,8 +26,8 @@
 
 ## Tutorial 4
 
-<!-- - [ ] [Coding Challenge 1](./T4-1_hints.md)
-- [ ] [Coding Challenge 2](./T4-2_hints.md)
+- [ ] [Coding Challenge 1](./T4-1_hints.md)
+<!-- - [ ] [Coding Challenge 2](./T4-2_hints.md)
 - [ ] [Coding Challenge 3](./T4-3_hints.md)
 - [ ] [Coding Challenge 4](./T4-4_hints.md)
 - [ ] [Review Assignment](./T4-Review_hints.md) -->
