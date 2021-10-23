@@ -48,7 +48,7 @@
 
 ### Chapter 4
 
-- [ ] Project 4.1
+- [X] [Project 4.1](Chapter_4/flowcharts_pseudocode/4.1/encrypt.md)
 - [ ] Project 4.2
 - [ ] Project 4.3
 - [ ] Project 4.4
