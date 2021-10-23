@@ -8,7 +8,7 @@
 
 ### CTI-110 Assignments Hints
 
-- [Web](Web_Tutorial_Hints/Readme.md)
+- [Web](Web/Readme.md)
 
 - [Programming](Prog/Readme.md)
 
