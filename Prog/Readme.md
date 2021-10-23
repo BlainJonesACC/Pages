@@ -49,7 +49,7 @@
 ### Chapter 4
 
 - [X] [Project 4.1](Chapter_4/flowcharts_pseudocode/4.1/encrypt.md)
-- [ ] Project 4.2
+- [X] [Project 4.2](Chapter_4/flowcharts_pseudocode/4.2/decrypt.md)
 - [ ] Project 4.3
 - [ ] Project 4.4
 - [ ] Project 4.5
