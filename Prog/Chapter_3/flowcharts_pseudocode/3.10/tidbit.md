@@ -7,12 +7,12 @@ The credit plan at TidBit Computer Store specifies a 10% down payment and an ann
 Write a program that takes the purchase price as input. The program should display a table, with appropriate headers, of a payment schedule for the lifetime of the loan. Each row of the table should contain the following items:
 
 1. The month number (beginning with 1)
-1. The current total balance owed
-1. The interest owed for that month
-1. The amount of principal owed for that month
-1. The payment for that month
-The balance remaining after payment
-1. The amount of interest for a month is equal to balance × rate / 12.
+2. The current total balance owed
+3. The interest owed for that month
+4. The amount of principal owed for that month
+5. The payment for that month
+6. The balance remaining after payment
+7. The amount of interest for a month is equal to balance × rate / 12.
 
 The amount of principal for a month is equal to the monthly payment minus the interest owed.
 
