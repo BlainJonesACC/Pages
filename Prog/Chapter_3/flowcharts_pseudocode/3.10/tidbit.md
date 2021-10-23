@@ -1,6 +1,6 @@
-# Program: tidbit.py
+# Project 3.10
 
-## Project 3.10
+## Program: tidbit.py
 
 The credit plan at TidBit Computer Store specifies a 10% down payment and an annual interest rate of 12%. Monthly payments are 5% of the listed purchase price, minus the down payment.
 
@@ -52,7 +52,7 @@ Month  Starting Balance  Interest to Pay  Principal to Pay  Payment  Ending Bala
 
 ### Flowchart
 
-![tidbit flowchart](tidbit.flow.svg)
+![tidbit flowchart](tidbit.flowchart.svg)
 
 ---
 

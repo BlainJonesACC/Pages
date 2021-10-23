@@ -1,6 +1,6 @@
-# Program: sevens.py
+# Project 3.11
 
-## Project 3.11
+## Program: sevens.py
 
 Instructions
 In the game of Lucky Sevens, the player rolls a pair of dice. If the dots add up to 7, the player wins \$4; otherwise, the player loses \$1.
@@ -26,7 +26,8 @@ You should have quit after 6 rolls when you had $59.
 
 ### Flowchart
 
-![sevens flowchart](./sevens.flow.svg)
+![sevens flowchart](sevens.flowchart.svg)
+
 ---
 
 ### Starter Code

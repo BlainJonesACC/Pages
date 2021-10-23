@@ -1,6 +1,6 @@
-# Program: leibniz.py
+# Project 3.6
 
-## Project 3.6
+## Program: leibniz.py
 
 ### Instructions
 
@@ -22,7 +22,7 @@ The approximation of pi is 3.3396825396825403
 
 ---
 
-![flowchart](leibniz.flow.svg)
+![flowchart](leibniz.flowchart.svg)
 
 ---
 

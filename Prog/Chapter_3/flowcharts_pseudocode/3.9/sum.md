@@ -1,6 +1,6 @@
-# Program: sum.py
+# Project 3.9
 
-## Project 3.9
+## Program: sum.py
 
 ### Instructions
 
@@ -25,7 +25,7 @@ The average is 2.0
 
 #### Flowchart
 
-![flowchart](sum.flow.svg)
+![flowchart](sum.flowchart.svg)
 
 ---
 

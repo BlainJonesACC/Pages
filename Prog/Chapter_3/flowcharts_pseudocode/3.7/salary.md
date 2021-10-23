@@ -1,8 +1,9 @@
-# Program: salary.py
+# Project 3.7
 
-## Project 3.7
+## Program: salary.py
 
 ### Instructions
+
 Teachers in most school districts are paid on a schedule that provides a salary based on their number of years of teaching experience.
 
 For example, a beginning teacher in the Lexington School District might be paid $30,000 the first year. For each year of experience after this first year, up to 10 years, the teacher receives a 2% increase over the preceding value.
@@ -40,7 +41,7 @@ Year   Salary
 
 #### Flowchart
 
-![flowchart](salary.flow.svg)
+![flowchart](salary.flowchart.svg)
 
 ---
 

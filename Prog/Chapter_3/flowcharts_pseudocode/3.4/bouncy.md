@@ -1,6 +1,6 @@
-# Program: bouncy.py
+# Project 3.4
 
-## Project 3.4
+## Program: bouncy.py
 
 ### Instructions
 
@@ -24,7 +24,7 @@ Total distance traveled is: 65.625 units.
 
 #### Flowchart
 
-![bounce flowchart](bouncy.flow.svg)
+![bounce flowchart](bouncy.flowchart.svg)
 
 ---
 

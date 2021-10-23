@@ -1,6 +1,6 @@
-# Program: gcd.py
+# Project 3.8
 
-## Project 3.8
+## Program: gcd.py
 
 ### Instructions
 
@@ -25,7 +25,7 @@ The greatest common divisor is 5
 
 ---
 
-![gcd flowchart](gcd.flow.svg)
+![gcd flowchart](gcd.flowchart.svg)
 
 ---
 

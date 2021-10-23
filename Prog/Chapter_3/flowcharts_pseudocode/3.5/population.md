@@ -1,8 +1,9 @@
-# Program: population.py
+# Project 3.5
 
-## Project 3.5
+## Program: population.py
 
-Instructions
+### Instructions
+
 A local biologist needs a program to predict population growth. The inputs would be:
 
 1. The initial number of organisms, as an **int**
@@ -29,7 +30,7 @@ The total population is 80
 
 ---
 
-![Population flowchart](population.flow.svg)
+![Population flowchart](population.flowchart.svg)
 
 ---
 

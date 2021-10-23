@@ -1,6 +1,6 @@
-# Program: equilateral.py
+# Project 3.1
 
-## Project 3.1
+## Program: equilateral.py
 
 ### Instructions
 
@@ -23,7 +23,7 @@ The triangle is equilateral.
 
 #### Flowchart
 
-![equilateral flowchart](equilateral.svg)
+![equilateral flowchart](equilateral.flowchart.svg)
 
 #### Starter Code
 

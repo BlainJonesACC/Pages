@@ -1,6 +1,6 @@
-# Program: right.py
+# Project 3.2
 
-## Project 3.2
+## Program: right.py
 
 ### Instructions
 
@@ -25,7 +25,7 @@ The triangle is a right triangle.
 
 #### Flowchart
 
-![rifht flowchart](right.flow.svg)
+![right flowchart](right.flowchart.svg)
 
 ---
 

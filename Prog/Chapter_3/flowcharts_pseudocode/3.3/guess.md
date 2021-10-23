@@ -1,6 +1,6 @@
-# Program: guess.py
+# Project 3.3
 
-## Project 3.3
+## Program: guess.py
 
 ### Instructions
 
@@ -54,7 +54,7 @@ I'm out of guesses, and you cheated!
 
 ---
 
-![flowchart](guess.flow.svg)
+![flowchart](guess.flowchart.svg)
 
 ---
 
