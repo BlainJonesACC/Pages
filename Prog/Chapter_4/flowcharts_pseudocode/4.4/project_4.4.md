@@ -37,7 +37,7 @@ The octal representation is 33
 
 ![oct to dec](octaltodecimal.flowchart.svg)
 
-### Starter Code
+<!-- ### Starter Code
 
 ```python
 """
@@ -58,4 +58,4 @@ Project 4.4
 Converts a string of octal digits to a decimal integer.
 """
 
-```
+``` -->
