@@ -52,7 +52,7 @@
 - [X] [Project 4.2](Chapter_4/flowcharts_pseudocode/4.2/decrypt.md)
 - [X] [Project 4.3](Chapter_4/flowcharts_pseudocode/4.3/project_4.3.md)
 - [X] [Project 4.4](Chapter_4/flowcharts_pseudocode/4.4/project_4.4.md)
-- [ ] Project 4.5
+- [X] [Project 4.5](Chapter_4/flowcharts_pseudocode/4.5/project4.5.md)
 - [ ] Project 4.6
 - [ ] Project 4.7
 - [ ] Project 4.8
