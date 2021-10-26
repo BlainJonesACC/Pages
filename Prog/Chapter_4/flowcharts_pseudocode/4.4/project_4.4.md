@@ -27,7 +27,6 @@ Quotient Remainder Octal
 The octal representation is 33
 ```
 
-
 ### FlowChart
 
 #### Decimal To Octal
@@ -48,18 +47,6 @@ Project 4.4
 Converts a decimal integer to a string of octal digits.
 """
 
-decimal = int(input("Enter a decimal integer: "))
-if decimal == 0: 
-    print(0)
-else:
-    print("Quotient Remainder Octal")
-    ostring = ""
-    while decimal > 0:
-        remainder = decimal % 8
-        decimal = decimal // 8
-        ostring = str(remainder) + ostring
-        print("%5d%8d%12s" % (decimal, remainder, ostring))
-    print("The octal representation is", ostring)  
 
 ```
 
@@ -71,11 +58,4 @@ Project 4.4
 Converts a string of octal digits to a decimal integer.
 """
 
-ostring = input("Enter a string of octal digits: ")
-decimal = 0
-exponent = len(ostring) - 1
-for digit in ostring:
-    decimal = decimal + int(digit) * 8 ** exponent
-    exponent = exponent - 1
-print("The integer value is", decimal)
 ```
