@@ -1,4 +1,6 @@
-# [Page has moved](https://blainjonesacc.github.io/Pages-2/)
+# Pages have moved
+
+## [Page has moved, Click here to access new pages](https://blainjonesacc.github.io/Pages-2/)
 
 <!-- # Web
 
