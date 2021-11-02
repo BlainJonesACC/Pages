@@ -1,4 +1,4 @@
-# [Moved](https://blainjonesacc.github.io/Pages-2/cti110_prog_landing_page)
+# [Page has moved](https://blainjonesacc.github.io/Pages-2/cti110_prog_landing_page)
 
 <!-- # Programming
 ## Instruction
@@ -7,7 +7,7 @@
 
 - [ ]  -->
 
-### Chapter 1
+<!-- ### Chapter 1 -->
 
 <!-- - [ ] Project 1.1
 - [ ] Project 1.2
@@ -20,7 +20,7 @@
 - [ ] Project 1.9
 - [ ] Project 1.10 -->
 
-### Chapter 2
+<!-- ### Chapter 2 -->
 
 <!-- - [ ] Project 2.1
 - [ ] Project 2.2
@@ -33,7 +33,7 @@
 - [ ] Project 2.9
 - [ ] Project 2.10 -->
 
-### Chapter 3
+<!-- ### Chapter 3
 
 - [X] [Project 3.1](Chapter_3/flowcharts_pseudocode/3.1/equilateral.md)
 - [X] [Project 3.2](Chapter_3/flowcharts_pseudocode/3.2/right.md)
@@ -60,4 +60,4 @@
 - [ ] Project 4.9
 - [ ] Project 4.10
 - [X] [Project 4.11](Chapter_4/flowcharts_pseudocode/4.11/textanalysis.md)
-- [X] [Project 4.12](Chapter_4/flowcharts_pseudocode/4.12/payroll.md) -->
+- [X] [Project 4.12](Chapter_4/flowcharts_pseudocode/4.12/payroll.md) --> -->

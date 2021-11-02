@@ -1,4 +1,4 @@
-# [Moved](https://blainjonesacc.github.io/Pages-2/cti110_web_landing_page)
+# [Page has moved](https://blainjonesacc.github.io/Pages-2/)
 
 <!-- # Web
 
